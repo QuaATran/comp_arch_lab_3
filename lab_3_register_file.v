@@ -9,14 +9,14 @@ module lab_3_register_file (Da, Db, Dc, regcheck, loadcheck, CLK, reset, rs1, rs
  
  
  wire        load0, load1, load2, load3, load4, load5, load6, load7,
-			    load8, load9, load10, load11, load12, load13, load14, load15,
-				 load16, load17, load18, load19, load20, load21, load22, load23,
-				 load24, load25, load26, load27, load28, load29, load30, load31;
+	     load8, load9, load10, load11, load12, load13, load14, load15,
+	     load16, load17, load18, load19, load20, load21, load22, load23,
+	     load24, load25, load26, load27, load28, load29, load30, load31;
 		
  wire [31:0] reg0, reg1, reg2, reg3, reg4, reg5, reg6, reg7,
-				 reg8, reg9, reg10, reg11, reg12, reg13, reg14, reg15,
-				 reg16, reg17, reg18, reg19, reg20, reg21, reg22, reg23,
-				 reg24, reg25, reg26, reg27, reg28, reg29, reg30, reg31;
+	     reg8, reg9, reg10, reg11, reg12, reg13, reg14, reg15,
+	     reg16, reg17, reg18, reg19, reg20, reg21, reg22, reg23,
+   	     reg24, reg25, reg26, reg27, reg28, reg29, reg30, reg31;
 
  
 
