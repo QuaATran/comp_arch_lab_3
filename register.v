@@ -2,9 +2,9 @@
 
 module register (Dout, Din, load, CLK, reset);
 
- input  		CLK, reset;
+ input  	      CLK, reset;
  input 		[31:0]Din, load;
- output reg [31:0]Dout;
+ output reg     [31:0]Dout;
 	
   always @(posedge CLK or posedge reset) begin
     if (reset)
